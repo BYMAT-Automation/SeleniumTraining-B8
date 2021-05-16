@@ -88,6 +88,15 @@ public class CommonMethods extends TestBase {
 		}
 	}
 
+	
+	public static void selectByValue(String XpathORFile, String valueDataSheet) {
+		try {
+			
+		}catch(Exception e) {
+			
+		}
+	}
+	
 	public static String getTextfromField(String XpathORFile) {
 		return driver.findElement(By.xpath(or.getProperty(XpathORFile))).getText();
 	}

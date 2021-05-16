@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="2" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Testing" duration-ms="99911" started-at="2021-05-15T10:57:05 IST" finished-at="2021-05-15T10:58:45 IST">
+  <suite name="Regression Testing" duration-ms="83355" started-at="2021-05-16T10:57:41 IST" finished-at="2021-05-16T10:59:04 IST">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="99911" started-at="2021-05-15T10:57:05 IST" finished-at="2021-05-15T10:58:45 IST">
+    <test name="Regression" duration-ms="83355" started-at="2021-05-16T10:57:41 IST" finished-at="2021-05-16T10:59:04 IST">
       <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1@d44fc21]" name="initialization" is-config="true" duration-ms="1500" started-at="2021-05-15T10:57:03 IST" finished-at="2021-05-15T10:57:05 IST">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1@d44fc21]" name="initialization" is-config="true" duration-ms="1334" started-at="2021-05-16T10:57:39 IST" finished-at="2021-05-16T10:57:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1@d44fc21]" name="getClassName" is-config="true" duration-ms="1" started-at="2021-05-15T10:57:05 IST" finished-at="2021-05-15T10:57:05 IST">
+        <test-method status="PASS" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1@d44fc21]" name="getClassName" is-config="true" duration-ms="1" started-at="2021-05-16T10:57:41 IST" finished-at="2021-05-16T10:57:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getClassName -->
-        <test-method status="PASS" signature="createAnNewAccount1(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1@d44fc21]" name="createAnNewAccount1" duration-ms="28114" started-at="2021-05-15T10:57:05 IST" data-provider="data_Collection" finished-at="2021-05-15T10:57:33 IST">
+        <test-method status="PASS" signature="createAnNewAccount1(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1@d44fc21]" name="createAnNewAccount1" duration-ms="22423" started-at="2021-05-16T10:57:41 IST" data-provider="data_Collection" finished-at="2021-05-16T10:58:03 IST">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,11 @@
         </test-method> <!-- createAnNewAccount1 -->
       </class> <!-- companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1 -->
       <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2">
-        <test-method status="PASS" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2@23faf8f2]" name="getClassName" is-config="true" duration-ms="1" started-at="2021-05-15T10:57:41 IST" finished-at="2021-05-15T10:57:41 IST">
+        <test-method status="PASS" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2@23faf8f2]" name="getClassName" is-config="true" duration-ms="0" started-at="2021-05-16T10:58:11 IST" finished-at="2021-05-16T10:58:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getClassName -->
-        <test-method status="FAIL" signature="createAnNewAccount2(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2@23faf8f2]" name="createAnNewAccount2" duration-ms="23638" started-at="2021-05-15T10:57:41 IST" data-provider="data_Collection" finished-at="2021-05-15T10:58:05 IST">
+        <test-method status="FAIL" signature="createAnNewAccount2(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2@23faf8f2]" name="createAnNewAccount2" duration-ms="18538" started-at="2021-05-16T10:58:11 IST" data-provider="data_Collection" finished-at="2021-05-16T10:58:30 IST">
           <params>
             <param index="0">
               <value>
@@ -85,11 +85,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- createAnNewAccount2 -->
       </class> <!-- companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2 -->
       <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3">
-        <test-method status="PASS" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3@2d6eabae]" name="getClassName" is-config="true" duration-ms="1" started-at="2021-05-15T10:58:12 IST" finished-at="2021-05-15T10:58:12 IST">
+        <test-method status="PASS" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3@2d6eabae]" name="getClassName" is-config="true" duration-ms="1" started-at="2021-05-16T10:58:36 IST" finished-at="2021-05-16T10:58:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getClassName -->
-        <test-method status="PASS" signature="createAnNewAccount3(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3@2d6eabae]" name="createAnNewAccount3" duration-ms="26251" started-at="2021-05-15T10:58:12 IST" data-provider="data_Collection" finished-at="2021-05-15T10:58:38 IST">
+        <test-method status="PASS" signature="createAnNewAccount3(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3@2d6eabae]" name="createAnNewAccount3" duration-ms="20953" started-at="2021-05-16T10:58:36 IST" data-provider="data_Collection" finished-at="2021-05-16T10:58:57 IST">
           <params>
             <param index="0">
               <value>
