@@ -33,7 +33,7 @@ public class CreateAnNewAccount2 extends TestBase {
 		
 		CommonMethods.selectRadioButtonOrCheckBox("Gender", "Mr.");
 		
-		CommonMethods.enterValueIntoTextBox("FirstName1", testDate.get("First_Name"), "First Name");
+		CommonMethods.enterValueIntoTextBox("FirstName", testDate.get("First_Name"), "First Name");
 
 		CommonMethods.enterValueIntoTextBox("LastName", testDate.get("Last_Name"), "Last Name");
 
