@@ -36,8 +36,8 @@ public class CommonMethods extends TestBase {
 			test.log(LogStatus.PASS, "User clicked on " + buttonName + " button.");
 			takeScreenShot();
 		} catch (Exception e) {
-			test.log(LogStatus.FAIL, "User not able to click on " + buttonName + " button."+e.getMessage());
-			//test.log(LogStatus.FAIL, e.getMessage());
+			test.log(LogStatus.FAIL, "User not able to click on " + buttonName + " button." + e.getMessage());
+			// test.log(LogStatus.FAIL, e.getMessage());
 			takeScreenShotFailed();
 			Assert.fail("User not able to click on " + buttonName + " button.");
 		}
@@ -88,24 +88,25 @@ public class CommonMethods extends TestBase {
 		}
 	}
 
-	
 	public static void selectByValue(String XpathORFile, String valueDataSheet) {
 		try {
-			
-		}catch(Exception e) {
-			
+
+		} catch (Exception e) {
+
 		}
 	}
-	
+
 	public static String getTextfromField(String XpathORFile) {
 		return driver.findElement(By.xpath(or.getProperty(XpathORFile))).getText();
 	}
-	
+
 	public static void takeScreenShot() {
 		String timestamp = new SimpleDateFormat("YYYY_MM_dd_HH_mm_SS").format(new Date());
-		String screenShotPath = System.getProperty("user.dir")+"\\src\\test\\resources\\screenShots\\Passed_screenshots\\"+testCaseName+"_"
-				+ timestamp + ".png";
+//		String screenShotPath = System.getProperty("user.dir")
+//				+ "\\src\\test\\resources\\screenShots\\Passed_screenshots\\" + testCaseName + "_" + timestamp + ".png";
 		
+		String screenShotPath = "${env.WORKSPACE}" + testCaseName + "_" + timestamp + ".png";
+
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File dest = new File(screenShotPath);
 		try {
@@ -114,15 +115,18 @@ public class CommonMethods extends TestBase {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	
+		
 		test.log(LogStatus.PASS, test.addScreenCapture(screenShotPath));
 	}
-	
+
 	public static void takeScreenShotFailed() {
 		String timestamp = new SimpleDateFormat("YYYY_MM_dd_HH_mm_SS").format(new Date());
-		String screenShotPath = System.getProperty("user.dir")+"\\src\\test\\resources\\screenShots\\Failed_screenshots\\"+testCaseName+"_"
-				+ timestamp + ".png";
 		
+//		String screenShotPath = System.getProperty("user.dir")
+//				+ "\\src\\test\\resources\\screenShots\\Failed_screenshots\\" + testCaseName + "_" + timestamp + ".png";
+		
+		String screenShotPath = "${env.WORKSPACE}" + testCaseName + "_" + timestamp + ".png";
+		 
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File dest = new File(screenShotPath);
 		try {
@@ -130,9 +134,8 @@ public class CommonMethods extends TestBase {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+
 		test.log(LogStatus.FAIL, test.addScreenCapture(screenShotPath));
 	}
-	
 
 }
