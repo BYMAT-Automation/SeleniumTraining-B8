@@ -103,7 +103,7 @@ public class CommonMethods extends TestBase {
 	
 	public static void takeScreenShot() {
 		String timestamp = new SimpleDateFormat("YYYY_MM_dd_HH_mm_SS").format(new Date());
-		String screenShotPath = System.getProperty("user.dir")+"\\src\\test\\resources\\screenShots\\Passed_screenshots\\loginToFbWithValidCred_"
+		String screenShotPath = System.getProperty("user.dir")+"\\src\\test\\resources\\screenShots\\Passed_screenshots\\"+testCaseName+"_"
 				+ timestamp + ".png";
 		
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -114,13 +114,13 @@ public class CommonMethods extends TestBase {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+	
 		test.log(LogStatus.PASS, test.addScreenCapture(screenShotPath));
 	}
 	
 	public static void takeScreenShotFailed() {
 		String timestamp = new SimpleDateFormat("YYYY_MM_dd_HH_mm_SS").format(new Date());
-		String screenShotPath = System.getProperty("user.dir")+"\\src\\test\\resources\\screenShots\\Failed_screenshots\\loginToFbWithValidCred_"
+		String screenShotPath = System.getProperty("user.dir")+"\\src\\test\\resources\\screenShots\\Failed_screenshots\\"+testCaseName+"_"
 				+ timestamp + ".png";
 		
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

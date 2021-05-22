@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount">
+      <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1">
         <methods>
-          <include name="createAnNewAccount" invocation-numbers="0"/>
+          <include name="createAnNewAccount1"/>
           <include name="initialization"/>
           <include name="closingBrowser"/>
           <include name="launchingBrowser"/>
-          <include name="endTest"/>
+          <include name="endExtendTest"/>
         </methods>
-      </class> <!-- companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount -->
+      </class> <!-- companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -26,5 +26,4 @@ public class CreateAnNewAccount3 extends TestBase {
 		// Framework Optimization with Re-usability of components 
 		// Real time Test case in a any framework in any IT company
 	}
-
 }

@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 88.995 sec <<< FAILURE! - in TestSuite
-createAnNewAccount2(companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2)  Time elapsed: 15.768 sec  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 69.602 sec <<< FAILURE! - in TestSuite
+createAnNewAccount2(companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2)  Time elapsed: 12.18 sec  <<< FAILURE!
 java.lang.AssertionError: User not able to enter Sangita in First Name field.
-	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:96)
 	at companyName.ProjectName.ModuleName.utilities.CommonMethods.enterValueIntoTextBox(CommonMethods.java:29)
 	at companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2.createAnNewAccount2(CreateAnNewAccount2.java:36)
 

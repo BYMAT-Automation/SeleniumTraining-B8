@@ -2,9 +2,10 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -48,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Regression_Testing">
-                    <span>C:\Automation_Testing\BYMAT\WorkSpace\SeleniumTraining_B8_MVN\src\test\resources\runner\testng.xml</span>
+                    <span>D:\BYMAT-Learn_Automation\WorkSpace\WorkSpace_Photon\SeleniumTraining-B8_MVN\src\test\resources\runner\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -150,28 +151,12 @@
                   <div class="stack-trace">java.lang.AssertionError: User not able to enter Sangita in First Name field.
 	at companyName.ProjectName.ModuleName.utilities.CommonMethods.enterValueIntoTextBox(CommonMethods.java:29)
 	at companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2.createAnNewAccount2(CreateAnNewAccount2.java:36)
-... Removed 28 stack frames
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression_Testing-class-failed -->
-          <div class="suite-Regression_Testing-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createAnNewAccount3({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=pqr, Address=Pune, ...)">
-                  </a> <!-- createAnNewAccount3({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=pqr, Address=Pune, ...) -->
-                  <span class="method-name">createAnNewAccount3</span>
-                  <span class="parameters">({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=pqr, Address=Pune, Password=PWD12, City=Pune, Gender=Male, First_Name=Sachin, Email_Address=test1232131@test.com, State=MH, Value2=ALREADY REGISTERED?, Value1=CREATE AN ACCOUNT})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Testing-class-passed -->
           <div class="suite-Regression_Testing-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -188,26 +173,42 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression_Testing-class-passed -->
+          <div class="suite-Regression_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAnNewAccount3({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=pqr, Address=Pune, ...)">
+                  </a> <!-- createAnNewAccount3({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=pqr, Address=Pune, ...) -->
+                  <span class="method-name">createAnNewAccount3</span>
+                  <span class="parameters">({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=pqr, Address=Pune, Password=PWD12, City=Pune, Gender=Male, First_Name=Sachin, Email_Address=test1232131@test.com, State=MH, Value2=ALREADY REGISTERED?, Value1=CREATE AN ACCOUNT})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-passed -->
         </div> <!-- panel Regression_Testing -->
         <div panel-name="test-xml-Regression_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Automation_Testing\BYMAT\WorkSpace\SeleniumTraining_B8_MVN\src\test\resources\runner\testng.xml</span>
+            <span class="header-content">D:\BYMAT-Learn_Automation\WorkSpace\WorkSpace_Photon\SeleniumTraining-B8_MVN\src\test\resources\runner\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Regression Testing&quot; parallel=&quot;none&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Regression Testing&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;companyName.ProjectName.ModuleName.testNGListners.Listners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1&quot;/&gt;
       &lt;class name=&quot;companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2&quot;/&gt;
       &lt;class name=&quot;companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Regression --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Regression Testing --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,7 +220,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regression (3 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,20 +250,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createAnNewAccount1')
 data.setCell(0, 2, 'companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1')
-data.setCell(0, 3, 22283);
+data.setCell(0, 3, 18308);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'createAnNewAccount3')
 data.setCell(1, 2, 'companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3')
-data.setCell(1, 3, 20820);
+data.setCell(1, 3, 17190);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'createAnNewAccount2')
 data.setCell(2, 2, 'companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2')
-data.setCell(2, 3, 15760);
+data.setCell(2, 3, 14862);
 window.suiteTableData['Regression_Testing']= { tableData: data, tableDiv: 'times-div-Regression_Testing'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
               <div id="times-div-Regression_Testing">
               </div> <!-- times-div-Regression_Testing -->
             </div> <!-- times-div -->
@@ -309,35 +310,35 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">getClassName</span>
-                <span class="method-start">1254 ms</span>
+                <span class="method-start">637 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createAnNewAccount1({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=Trainer, Address=Pu...)</span>
-                <span class="method-start">1304 ms</span>
+                <span class="method-start">675 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">getClassName</span>
-                <span class="method-start">36070 ms</span>
+                <span class="method-start">24992 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">createAnNewAccount2({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=xyz, Address=Pune, ...)</span>
-                <span class="method-start">36072 ms</span>
+                <span class="method-start">24995 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">getClassName</span>
-                <span class="method-start">58685 ms</span>
+                <span class="method-start">45733 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createAnNewAccount3({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=pqr, Address=Pune, ...)</span>
-                <span class="method-start">58692 ms</span>
+                <span class="method-start">45738 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

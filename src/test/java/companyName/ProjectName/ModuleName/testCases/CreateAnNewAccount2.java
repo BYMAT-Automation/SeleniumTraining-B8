@@ -14,7 +14,7 @@ public class CreateAnNewAccount2 extends TestBase {
 		testCaseName = this.getClass().getSimpleName();
 		System.out.println("Test case name is :-" +testCaseName);
 		
-		}
+	}
 
 	@Test(dataProvider = "data_Collection") // Build 1
 	public void createAnNewAccount2(Hashtable<String, String> testDate) {

@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression Testing]" parallel="none">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression Testing]">
   <listeners>
     <listener class-name="companyName.ProjectName.ModuleName.testNGListners.Listners"/>
   </listeners>
-  <test name="Regression(failed)" parallel="none">
+  <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3">
-        <methods>
-          <include name="getClassName"/>
-        </methods>
-      </class> <!-- companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3 -->
-      <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1">
-        <methods>
-          <include name="initialization"/>
-          <include name="getClassName"/>
-        </methods>
-      </class> <!-- companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1 -->
       <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2">
         <methods>
+          <include name="initialization"/>
           <include name="getClassName"/>
           <include name="createAnNewAccount2" invocation-numbers="0"/>
         </methods>
       </class> <!-- companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2 -->
     </classes>
-  </test> <!-- Regression(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Regression Testing] -->
