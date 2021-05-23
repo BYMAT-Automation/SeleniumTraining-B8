@@ -29,5 +29,4 @@ public class CreateAnNewAccount1 extends TestBase {
 		
 		// Framework Optimization with Re-usability of components 
 	}
-
 }

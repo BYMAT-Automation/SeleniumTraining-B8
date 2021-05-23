@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="38.095" tests="3" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="49.052" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
     <property name="java.vm.version" value="25.291-b10"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\rahul\.jenkins\workspace\TestProject"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\rahul\.jenkins\workspace\SeleniumTraining_B8"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -62,29 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="createAnNewAccount1" classname="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1" time="12.158"/>
-  <testcase name="createAnNewAccount2" classname="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2" time="12.18">
-    <failure message="User not able to enter Sangita in First Name field." type="java.lang.AssertionError">java.lang.AssertionError: User not able to enter Sangita in First Name field.
-	at org.testng.Assert.fail(Assert.java:96)
-	at companyName.ProjectName.ModuleName.utilities.CommonMethods.enterValueIntoTextBox(CommonMethods.java:29)
-	at companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2.createAnNewAccount2(CreateAnNewAccount2.java:36)
-</failure>
-    <system-out><![CDATA[Test case name is :-CreateAnNewAccount2
-CreateAnNewAccount2 test case starts from row number :- 5
-Total number of columns are:- 13
-Total number of iterations/rows are :- 1
-***************************************************
-
-----{User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=xyz, Address=Pune, Password=PWD12, City=Pune, Gender=Male, First_Name=Sangita, Email_Address=test1232131@test.com, State=MH, Value2=ALREADY REGISTERED?, Value1=CREATE AN ACCOUNT}
-Application URL has been launched
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13735
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 22, 2021 11:14:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="createAnNewAccount3" classname="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3" time="13.757"/>
+  <testcase name="createAnNewAccount1" classname="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1" time="15.965"/>
+  <testcase name="createAnNewAccount2" classname="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2" time="17.42"/>
+  <testcase name="createAnNewAccount3" classname="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3" time="15.667"/>
 </testsuite>
