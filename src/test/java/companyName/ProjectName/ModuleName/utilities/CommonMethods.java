@@ -137,5 +137,8 @@ public class CommonMethods extends TestBase {
 
 		test.log(LogStatus.FAIL, test.addScreenCapture(screenShotPath));
 	}
+	public void name() {
+		System.out.println("Dummy method");
+	}
 
 }
