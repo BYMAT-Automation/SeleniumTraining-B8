@@ -138,9 +138,4 @@ public class CommonMethods extends TestBase {
 		test.log(LogStatus.FAIL, test.addScreenCapture(screenShotPath));
 	}
 
-	public void dummy1245() {
-		System.out.println("To check Jenkins Job Execution");
-
-	}
-
 }
