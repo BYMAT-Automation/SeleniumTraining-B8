@@ -112,7 +112,6 @@ public class CommonMethods extends TestBase {
 		try {
 			FileHandler.copy(scrFile, dest);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -136,9 +135,6 @@ public class CommonMethods extends TestBase {
 		}
 
 		test.log(LogStatus.FAIL, test.addScreenCapture(screenShotPath));
-	}
-	public void name() {
-		System.out.println("Dummy method");
 	}
 
 }
