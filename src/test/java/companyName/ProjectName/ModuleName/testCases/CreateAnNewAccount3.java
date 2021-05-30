@@ -2,6 +2,7 @@ package companyName.ProjectName.ModuleName.testCases;
 
 import java.util.Hashtable;
 
+import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -14,9 +15,11 @@ public class CreateAnNewAccount3 extends TestBase {
 	@BeforeClass
 	public void getClassName() {
 		testCaseName = this.getClass().getSimpleName();
-		System.out.println("Test case name is :-" +testCaseName);
+//		System.out.println("Test case name is :-" +testCaseName);
+		if (!HT_RunMode.get(testCaseName).equalsIgnoreCase("Y"))
+			throw new SkipException("Skipping Test case as it's Run Mode is set to N");	
 		}
-
+	
 	@Test(dataProvider = "data_Collection") // Build 2
 	public void createAnNewAccount3(Hashtable<String, String> testDate) {
 
