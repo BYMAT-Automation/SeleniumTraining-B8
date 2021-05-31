@@ -105,7 +105,7 @@ public class CommonMethods extends TestBase {
 //		String screenShotPath = System.getProperty("user.dir")
 //				+ "\\src\\test\\resources\\screenShots\\Passed_screenshots\\" + testCaseName + "_" + timestamp + ".png";
 		
-		String screenShotPath = "\\src\\test\\resources\\screenShots\\Passed_screenshots\\" + testCaseName + "_" + timestamp + ".png";
+		String screenShotPath = "src\\test\\resources\\screenShots\\Passed_screenshots\\" + testCaseName + "_" + timestamp + ".png";
 
 	//	String screenShotPath = "${env.WORKSPACE}" + testCaseName + "_" + timestamp + ".png";
 
@@ -125,7 +125,7 @@ public class CommonMethods extends TestBase {
 
 //		String screenShotPath = System.getProperty("user.dir")
 //				+ "\\src\\test\\resources\\screenShots\\Failed_screenshots\\" + testCaseName + "_" + timestamp + ".png";
-		String screenShotPath =  "\\src\\test\\resources\\screenShots\\Failed_screenshots\\" + testCaseName + "_" + timestamp + ".png";
+		String screenShotPath =  "src\\test\\resources\\screenShots\\Failed_screenshots\\" + testCaseName + "_" + timestamp + ".png";
 
 	//	String screenShotPath = "${env.WORKSPACE}" + testCaseName + "_" + timestamp + ".png";
 
