@@ -91,13 +91,13 @@ public class TestBase { // Heart of the Framework
 
 	// @AfterMethod // Post -Condition
 	public void closingBrowser() throws InterruptedException {
-
 		Thread.sleep(5000);
+		if(!(driver==null)) {
 		driver.quit();
 		// System.out.println("Browser has been closed");
 		test.log(LogStatus.INFO,
 				"Test case " + testCaseName + " execution has been completed and Browser has been closed");
-	}
+	}}
 
 	@DataProvider
 	public static Object[][] data_Collection() {

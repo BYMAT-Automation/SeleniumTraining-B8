@@ -1,9 +1,9 @@
-companyName\ProjectName\ModuleName\testCases\CreateAnNewAccount1.class
-companyName\ProjectName\ModuleName\testBase\TestBase.class
-companyName\ProjectName\ModuleName\rough\ClassNameTestddsfsfsf.class
 companyName\ProjectName\ModuleName\testCases\CreateAnNewAccount2.class
-companyName\ProjectName\ModuleName\testCases\CreateAnNewAccount3.class
 companyName\ProjectName\ModuleName\pages\PersonalInformationpage.class
+companyName\ProjectName\ModuleName\testCases\CreateAnNewAccount1.class
+companyName\ProjectName\ModuleName\testCases\CreateAnNewAccount3.class
 companyName\ProjectName\ModuleName\testNGListners\Listners.class
-companyName\ProjectName\ModuleName\pages\HomePage.class
 companyName\ProjectName\ModuleName\utilities\CommonMethods.class
+companyName\ProjectName\ModuleName\rough\ClassNameTestddsfsfsf.class
+companyName\ProjectName\ModuleName\pages\HomePage.class
+companyName\ProjectName\ModuleName\testBase\TestBase.class

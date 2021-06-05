@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
+                    <span class="method-stats">3 methods,  1 skipped,  2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -114,6 +114,11 @@
                       <a href="#" panel-name="suite-Regression_Testing" class="show-methods passed suite-Regression_Testing"> (show)</a> <!-- show-methods passed suite-Regression_Testing -->
                     </span>
                     <div class="method-list-content passed suite-Regression_Testing">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1" hash-for-method="createAnNewAccount1({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=Trainer, Address=Pu...)">createAnNewAccount1({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=Trainer, Address=Pu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2" hash-for-method="createAnNewAccount2({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=xyz, Address=Pune, ...)">createAnNewAccount2({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=xyz, Address=Pune, ...)</a> <!-- method navigator-link -->
@@ -166,6 +171,22 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression_Testing-class-passed -->
+          <div class="suite-Regression_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAnNewAccount1({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=Trainer, Address=Pu...)">
+                  </a> <!-- createAnNewAccount1({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=Trainer, Address=Pu...) -->
+                  <span class="method-name">createAnNewAccount1</span>
+                  <span class="parameters">({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=Trainer, Address=Pune, Password=PWD12, City=Pune, Gender=Male, First_Name=Selenium, Email_Address=test1232131@test.com, State=MH, Value2=ALREADY REGISTERED?, Value1=CREATE AN ACCOUNT})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-passed -->
         </div> <!-- panel Regression_Testing -->
         <div panel-name="test-xml-Regression_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -181,6 +202,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1&quot;/&gt;
       &lt;class name=&quot;companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2&quot;/&gt;
       &lt;class name=&quot;companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3&quot;/&gt;
     &lt;/classes&gt;
@@ -196,7 +218,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,20 +244,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createAnNewAccount2')
-data.setCell(0, 2, 'companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2')
-data.setCell(0, 3, 20634);
+data.setCell(0, 1, 'createAnNewAccount1')
+data.setCell(0, 2, 'companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1')
+data.setCell(0, 3, 20282);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'createAnNewAccount3')
-data.setCell(1, 2, 'companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'createAnNewAccount2')
+data.setCell(1, 2, 'companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2')
+data.setCell(1, 3, 18467);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createAnNewAccount3')
+data.setCell(2, 2, 'companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3')
+data.setCell(2, 3, 0);
 window.suiteTableData['Regression_Testing']= { tableData: data, tableDiv: 'times-div-Regression_Testing'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Regression_Testing">
               </div> <!-- times-div-Regression_Testing -->
             </div> <!-- times-div -->
@@ -250,9 +276,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Regression_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3</span>
               <div class="ignored-methods-div">
@@ -268,29 +301,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initialization</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">getClassName</span>
-                <span class="method-start">1283 ms</span>
+                <span class="method-start">1106 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createAnNewAccount1({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=Trainer, Address=Pu...)</span>
+                <span class="method-start">1145 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getClassName</span>
+                <span class="method-start">27860 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createAnNewAccount2({User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=xyz, Address=Pune, ...)</span>
-                <span class="method-start">1333 ms</span>
+                <span class="method-start">27864 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">getClassName</span>
-                <span class="method-start">28337 ms</span>
+                <span class="method-start">52279 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createAnNewAccount3</span>
-                <span class="method-start">-1622366578029 ms</span>
+                <span class="method-start">-1622867324082 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

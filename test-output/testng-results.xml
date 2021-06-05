@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="1" total="3" passed="1">
+<testng-results skipped="1" failed="0" ignored="2" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Testing" duration-ms="27088" started-at="2021-05-30T09:22:59Z" finished-at="2021-05-30T09:23:26Z">
+  <suite name="Regression Testing" duration-ms="51211" started-at="2021-06-05T04:28:45Z" finished-at="2021-06-05T04:29:36Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27088" started-at="2021-05-30T09:22:59Z" finished-at="2021-05-30T09:23:26Z">
-      <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2@3fee9989]" name="initialization" is-config="true" duration-ms="1259" started-at="2021-05-30T09:22:58Z" finished-at="2021-05-30T09:22:59Z">
+    <test name="Test" duration-ms="51211" started-at="2021-06-05T04:28:45Z" finished-at="2021-06-05T04:29:36Z">
+      <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1@73ad2d6]" name="initialization" is-config="true" duration-ms="1086" started-at="2021-06-05T04:28:44Z" finished-at="2021-06-05T04:28:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2@3fee9989]" name="getClassName" is-config="true" duration-ms="1" started-at="2021-05-30T09:22:59Z" finished-at="2021-05-30T09:22:59Z">
+        <test-method status="PASS" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1@73ad2d6]" name="getClassName" is-config="true" duration-ms="0" started-at="2021-06-05T04:28:45Z" finished-at="2021-06-05T04:28:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getClassName -->
-        <test-method status="PASS" signature="createAnNewAccount2(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2@3fee9989]" name="createAnNewAccount2" duration-ms="20634" started-at="2021-05-30T09:22:59Z" data-provider="data_Collection" finished-at="2021-05-30T09:23:19Z">
+        <test-method status="PASS" signature="createAnNewAccount1(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1@73ad2d6]" name="createAnNewAccount1" duration-ms="20282" started-at="2021-06-05T04:28:45Z" data-provider="data_Collection" finished-at="2021-06-05T04:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{User_Name=Selenium Trainer, Application_Name=My Store, Iteration=1.0, Last_Name=Trainer, Address=Pune, Password=PWD12, City=Pune, Gender=Male, First_Name=Selenium, Email_Address=test1232131@test.com, State=MH, Value2=ALREADY REGISTERED?, Value1=CREATE AN ACCOUNT}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnNewAccount1 -->
+      </class> <!-- companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount1 -->
+      <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2">
+        <test-method status="PASS" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2@7085bdee]" name="getClassName" is-config="true" duration-ms="0" started-at="2021-06-05T04:29:11Z" finished-at="2021-06-05T04:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClassName -->
+        <test-method status="PASS" signature="createAnNewAccount2(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2@7085bdee]" name="createAnNewAccount2" duration-ms="18467" started-at="2021-06-05T04:29:11Z" data-provider="data_Collection" finished-at="2021-06-05T04:29:30Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +45,7 @@
         </test-method> <!-- createAnNewAccount2 -->
       </class> <!-- companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount2 -->
       <class name="companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3">
-        <test-method status="SKIP" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3@73ad2d6]" name="getClassName" is-config="true" duration-ms="1" started-at="2021-05-30T09:23:26Z" finished-at="2021-05-30T09:23:26Z">
+        <test-method status="SKIP" signature="getClassName()[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3@1ce92674]" name="getClassName" is-config="true" duration-ms="1" started-at="2021-06-05T04:29:36Z" finished-at="2021-06-05T04:29:36Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping Test case as it's Run Mode is set to N]]>
@@ -68,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getClassName -->
-        <test-method status="SKIP" signature="createAnNewAccount3(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3@73ad2d6]" name="createAnNewAccount3" duration-ms="0" started-at="2021-05-30T09:23:26Z" data-provider="data_Collection" finished-at="2021-05-30T09:23:26Z">
+        <test-method status="SKIP" signature="createAnNewAccount3(java.util.Hashtable)[pri:0, instance:companyName.ProjectName.ModuleName.testCases.CreateAnNewAccount3@1ce92674]" name="createAnNewAccount3" duration-ms="0" started-at="2021-06-05T04:29:36Z" data-provider="data_Collection" finished-at="2021-06-05T04:29:36Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping Test case as it's Run Mode is set to N]]>

@@ -4,8 +4,6 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.relevantcodes.extentreports.LogStatus;
-
 import companyName.ProjectName.ModuleName.testBase.TestBase;
 
 public class Listners extends TestBase implements ITestListener{
@@ -52,7 +50,7 @@ public class Listners extends TestBase implements ITestListener{
 	
 	public void onTestSkipped(ITestResult result) {
 		
-		test.log(LogStatus.INFO, "Test case "+testCaseName+" execution has been Skipped");
+		//test.log(LogStatus.INFO, "Test case "+testCaseName+" execution has been Skipped");
 	}
 
 }
