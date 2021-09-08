@@ -65,6 +65,7 @@ public class TestBase { // Heart of the Framework
 	// @BeforeMethod // Pre-Condition
 	public void launchingBrowser() {
 		test = report.startTest(testCaseName);
+		
 		if (config.getProperty("Browser").equalsIgnoreCase("CHROME")) {
 			System.setProperty("webdriver.chrome.driver",
 					System.getProperty("user.dir") + "\\src\\test\\resources\\drivers\\chromedriver.exe");

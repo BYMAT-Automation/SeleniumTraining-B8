@@ -23,6 +23,7 @@ public class TestMethodOverriding {
 		// 1. Parent & Child class should have inheritance relation. 
 		// 2. Child class should have same method as that of Parent class with same data type.
 		// 3. create a object of child class and assign it to parent class reference variable.
+		
 	}
 
 }

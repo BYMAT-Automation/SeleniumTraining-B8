@@ -19,6 +19,7 @@ public class TestInterfaceConcept {
 		driver.takeScreenShot();
 		
 		System.out.println("***************************************");	
+		
 		driver1 = new FireFoxDriver_B8();
 		
 		driver1.get_B8("URL over here");
@@ -32,6 +33,7 @@ public class TestInterfaceConcept {
 		driver1.takeScreenShot();
 		
 		System.out.println("***************************************");	
+		
 		driver2 = new InternetExplorerDriver_B8();
 		
 		driver2.get_B8("URL over here");
